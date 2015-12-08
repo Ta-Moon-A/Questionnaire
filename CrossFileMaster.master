@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CrossFileMaster.master.cs" Inherits="CrossFileMaster" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html>
+<link href="Styles/styles.css" rel="stylesheet" type="text/css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="PageWrapForAdmin">
+
+            <div style="margin-bottom: 5px">
+                <img src="img/logo.gif" />
+            </div>
+
+            <asp:ScriptManager runat="server" ID="scrManager"></asp:ScriptManager>
+
+            <telerik:RadMenu ID="MainMenu" runat="server" Flow="Horizontal"  OnItemClick="MainMenu_ItemClick">
+                <Items>
+                    <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Find" Value="">
+                        <Items>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Profile"  NavigateUrl="FindProfile.aspx" Value="profile"/>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Groups" NavigateUrl="MaintainGroups.aspx" Value="groups" />
+                            </Items>
+                    </telerik:RadMenuItem>
+                    <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Set Up" Value="AdminItems" >
+                        <Items>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Question Groups" NavigateUrl="MaintainQuestionGroups.aspx" Value="QuestionGroups"/>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Questions" NavigateUrl="MaintainQuestions.aspx" Value="Questions"/>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Answer Categories" NavigateUrl="MaintainAnswerCategories.aspx" Value="AnswerCategories"/>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Profile Differences" NavigateUrl="MaintainProfileDifferences.aspx" Value="ProfDifference" />
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Score Differences" NavigateUrl="MaintainScoreDifferences.aspx" Value="ScDifference"/>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Email Templates" NavigateUrl="MaintainEmailTemplate.aspx" value="Email"/>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Countries" NavigateUrl="MaintainCountries.aspx" value="countries"/>
+                        </Items>
+                    </telerik:RadMenuItem>
+
+                    
+                    <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Set Up" Value="SupervisorItems" >
+                        <Items>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Email Templates" NavigateUrl="MaintainEmailTemplate.aspx" value="Email"/>
+                            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Countries" NavigateUrl="MaintainCountries.aspx" value="countries"/>
+                        </Items>
+                    </telerik:RadMenuItem>
+
+
+                    <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Logout" Value="LogOut"   />
+               </Items>
+            </telerik:RadMenu>
+
+            <asp:ContentPlaceHolder ID="ContentPage" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
