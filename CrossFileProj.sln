@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CrossFile(1)", "http://localhost:19960", "{51796085-94CA-4949-8522-15871A68A2ED}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CrossFileProject", "http://localhost:20416", "{CACE75B0-C54E-420B-9C9F-043908999FB2}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_19960"
-		Debug.AspNetCompiler.PhysicalPath = "D:\TAKO..DON'T TOUCH\PROJECTS\CrossFile\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_19960\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_20416"
+		Debug.AspNetCompiler.PhysicalPath = "D:\TAKO..DON'T TOUCH\PROJECTS\CrossFileProject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_20416\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_19960"
-		Release.AspNetCompiler.PhysicalPath = "D:\TAKO..DON'T TOUCH\PROJECTS\CrossFile\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_19960\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_20416"
+		Release.AspNetCompiler.PhysicalPath = "D:\TAKO..DON'T TOUCH\PROJECTS\CrossFileProject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_20416\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "D:\TAKO..DON'T TOUCH\PROJECTS\CrossFile\"
+		SlnRelativePath = "D:\TAKO..DON'T TOUCH\PROJECTS\CrossFileProject\"
 	EndProjectSection
 EndProject
 Global
@@ -29,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{51796085-94CA-4949-8522-15871A68A2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51796085-94CA-4949-8522-15871A68A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACE75B0-C54E-420B-9C9F-043908999FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACE75B0-C54E-420B-9C9F-043908999FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
